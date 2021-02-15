@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2811f512-22da-4212-8753-d63f8b2e1917" name="Default Changelist" comment="Initial commit for the case study">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PackageOrganizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PackageOrganizer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algo/Knapsack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algo/Knapsack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Package.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Package.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Value.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Value.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/OutputLineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OutputLineTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PackageOrganizerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PackageOrganizerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/algo/KnapsackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/algo/KnapsackTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/models/PackageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/PackageTest.java" afterDir="false" />
+    <list default="true" id="2811f512-22da-4212-8753-d63f8b2e1917" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MercateoPackageFinder-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/MercateoPackageFinder-1.0-SNAPSHOT-jar-with-dependencies.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MercateoPackageFinder-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/MercateoPackageFinder-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +62,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -160,7 +153,21 @@
       <option name="project" value="LOCAL" />
       <updated>1613410557370</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Refactored the code and updated tests">
+      <created>1613417567253</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1613417567253</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added maven surefire plugin">
+      <created>1613419623042</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1613419623042</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +175,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit for the case study" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit for the case study" />
+    <MESSAGE value="Refactored the code and updated tests" />
+    <MESSAGE value="added maven surefire plugin" />
+    <option name="LAST_COMMIT_MESSAGE" value="added maven surefire plugin" />
   </component>
 </project>

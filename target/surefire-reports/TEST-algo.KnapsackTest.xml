@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="algo.KnapsackTest" time="0.031" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="14"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="jdk.extensions.version" value="14.0.2.0"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/chaklader/IdeaProjects/OptimalPackageFinder/target/test-classes:/Users/chaklader/IdeaProjects/OptimalPackageFinder/target/classes:/Users/chaklader/.m2/repository/info/picocli/picocli/3.9.6/picocli-3.9.6.jar:/Users/chaklader/.m2/repository/org/projectlombok/lombok/1.18.18/lombok-1.18.18.jar:/Users/chaklader/.m2/repository/com/google/guava/guava/29.0-jre/guava-29.0-jre.jar:/Users/chaklader/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/chaklader/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/chaklader/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/chaklader/.m2/repository/org/checkerframework/checker-qual/2.11.1/checker-qual-2.11.1.jar:/Users/chaklader/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/Users/chaklader/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/chaklader/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2.jar:/Users/chaklader/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/chaklader/.m2/repository/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.jar:/Users/chaklader/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/chaklader/.m2/repository/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2.jar:/Users/chaklader/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2.jar:/Users/chaklader/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.5.2/junit-jupiter-params-5.5.2.jar:/Users/chaklader/.m2/repository/io/vavr/vavr/0.10.3/vavr-0.10.3.jar:/Users/chaklader/.m2/repository/io/vavr/vavr-match/0.10.3/vavr-match-0.10.3.jar:/Users/chaklader/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse OpenJ9"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="com.ibm.vm.bitmode" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="com.ibm.oti.vm.library.version" value="29"/>
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
+    <property name="user.timezone" value=""/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/Users/chaklader/.sdkman/candidates/java/14.0.2.j9-adpt/lib/compressedrefs:/Users/chaklader/.sdkman/candidates/java/14.0.2.j9-adpt/lib"/>
+    <property name="sun.java.command" value="/Users/chaklader/IdeaProjects/OptimalPackageFinder/target/surefire/surefirebooter13289706716121374450.jar /Users/chaklader/IdeaProjects/OptimalPackageFinder/target/surefire 2021-02-16T02-30-54_147-jvmRun1 surefire16652483677793699195tmp surefire_01900902495103183651tmp"/>
+    <property name="surefire.test.class.path" value="/Users/chaklader/IdeaProjects/OptimalPackageFinder/target/test-classes:/Users/chaklader/IdeaProjects/OptimalPackageFinder/target/classes:/Users/chaklader/.m2/repository/info/picocli/picocli/3.9.6/picocli-3.9.6.jar:/Users/chaklader/.m2/repository/org/projectlombok/lombok/1.18.18/lombok-1.18.18.jar:/Users/chaklader/.m2/repository/com/google/guava/guava/29.0-jre/guava-29.0-jre.jar:/Users/chaklader/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/chaklader/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/chaklader/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/chaklader/.m2/repository/org/checkerframework/checker-qual/2.11.1/checker-qual-2.11.1.jar:/Users/chaklader/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/Users/chaklader/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/chaklader/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2.jar:/Users/chaklader/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/chaklader/.m2/repository/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.jar:/Users/chaklader/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/chaklader/.m2/repository/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2.jar:/Users/chaklader/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2.jar:/Users/chaklader/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.5.2/junit-jupiter-params-5.5.2.jar:/Users/chaklader/.m2/repository/io/vavr/vavr/0.10.3/vavr-0.10.3.jar:/Users/chaklader/.m2/repository/io/vavr/vavr-match/0.10.3/vavr-match-0.10.3.jar:/Users/chaklader/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/chaklader"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-07-14"/>
+    <property name="java.home" value="/Users/chaklader/.sdkman/candidates/java/14.0.2.j9-adpt"/>
+    <property name="ibm.signalhandling.rs" value="false"/>
+    <property name="file.separator" value="/"/>
+    <property name="jdk.extensions.name" value="Extensions for OpenJDK for Eclipse OpenJ9"/>
+    <property name="basedir" value="/Users/chaklader/IdeaProjects/OptimalPackageFinder"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.compiler" value="j9jit29"/>
+    <property name="com.ibm.util.extralibs.properties" value=""/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="com.ibm.oti.configuration" value="scar"/>
+    <property name="surefire.real.class.path" value="/Users/chaklader/IdeaProjects/OptimalPackageFinder/target/surefire/surefirebooter13289706716121374450.jar"/>
+    <property name="com.ibm.oti.shared.enabled" value="false"/>
+    <property name="jdk.boot.class.path.append" value=""/>
+    <property name="com.ibm.oti.vm.bootstrap.library.path" value="/Users/chaklader/.sdkman/candidates/java/14.0.2.j9-adpt/lib/compressedrefs:/Users/chaklader/.sdkman/candidates/java/14.0.2.j9-adpt/lib"/>
+    <property name="com.ibm.cpu.endian" value="little"/>
+    <property name="java.fullversion" value="14.0.2+12&#10;JRE 14 Mac OS X amd64-64-Bit Compressed References 20200715_143 (JIT enabled, AOT enabled)&#10;OpenJ9   - 34cf4c075&#10;OMR      - 113e54219&#10;JCL      - 1d231bd6a2 based on jdk-14.0.2+12"/>
+    <property name="java.runtime.version" value="14.0.2+12"/>
+    <property name="user.name" value="chaklader"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.7"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="ibm.signalhandling.sigint" value="true"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Eclipse OpenJ9 VM"/>
+    <property name="java.vendor.version" value="AdoptOpenJDK"/>
+    <property name="ibm.signalhandling.sigchain" value="true"/>
+    <property name="localRepository" value="/Users/chaklader/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-support/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/k4/q3psbyqj0l79b8ch527mr36h0000gp/T/"/>
+    <property name="java.version" value="14.0.2"/>
+    <property name="com.ibm.system.agent.path" value="/Users/chaklader/.sdkman/candidates/java/14.0.2.j9-adpt/lib"/>
+    <property name="user.dir" value="/Users/chaklader/IdeaProjects/OptimalPackageFinder"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.nio.PageAlignDirectMemory" value="false"/>
+    <property name="os.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/chaklader/.sdkman/candidates/java/14.0.2.j9-adpt/lib/compressedrefs:/Users/chaklader/.sdkman/candidates/java/14.0.2.j9-adpt/lib:/usr/lib"/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="java.vm.info" value="JRE 14 Mac OS X amd64-64-Bit Compressed References 20200715_143 (JIT enabled, AOT enabled)&#10;OpenJ9   - 34cf4c075&#10;OMR      - 113e54219&#10;JCL      - 1d231bd6a2 based on jdk-14.0.2+12"/>
+    <property name="sun.nio.MaxDirectMemorySize" value="3758096384"/>
+    <property name="java.vm.version" value="openj9-0.21.0"/>
+    <property name="com.ibm.jcl.checkClassPath" value=""/>
+    <property name="ibm.system.encoding" value="UTF-8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="58.0"/>
+  </properties>
+  <testcase name="testFindOptimalEmptyProducts" classname="algo.KnapsackTest" time="0.018"/>
+  <testcase name="testFindOptimalPackage_1" classname="algo.KnapsackTest" time="0.001"/>
+  <testcase name="testFindOptimalPackage_2" classname="algo.KnapsackTest" time="0.001"/>
+</testsuite>

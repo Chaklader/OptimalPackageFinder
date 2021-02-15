@@ -56,8 +56,8 @@ public class Knapsack {
 
 
     /**
-     * recursively find the optimal Value"" from the highest index (N-1)
-     * to 0 using the Knapsack algorithm
+     * recursively find the optimal "Value" from the highest  (N-1)
+     * to 0 index of the products using the Knapsack algorithm
      *
      * @param key
      * @return
@@ -66,7 +66,8 @@ public class Knapsack {
 
         if (key.getPosition() == products.length) {
 
-            return new Value(products.length);
+            Value value = new Value(products.length);
+            return value;
         }
 
         Key nextKey = new Key(key.getPosition() + 1, key.getWeight());
