@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2811f512-22da-4212-8753-d63f8b2e1917" name="Default Changelist" comment="Initial commit for the case study">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PackageOrganizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PackageOrganizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algo/Knapsack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algo/Knapsack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Package.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Package.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Value.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Value.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OutputLineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OutputLineTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PackageOrganizerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PackageOrganizerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/algo/KnapsackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/algo/KnapsackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/models/PackageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/PackageTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Arefe &lt;omi.chaklader@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="usePluginRegistry" value="true" />
+        <option name="workOffline" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1oNmfdUw6Z30cw44AuCyoFkfoco" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../Practice/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.KnapsackTest">
+    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="Practice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="MercateoPackageFinder" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KnapsackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OptimalPackageFinder" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="algo" />
+      <option name="MAIN_CLASS_NAME" value="algo.KnapsackTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KnapsackTest.testFindOptimalEmptyProducts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OptimalPackageFinder" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="algo" />
+      <option name="MAIN_CLASS_NAME" value="algo.KnapsackTest" />
+      <option name="METHOD_NAME" value="testFindOptimalEmptyProducts" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OutputLineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OptimalPackageFinder" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OutputLineTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.KnapsackTest" />
+        <item itemvalue="JUnit.KnapsackTest.testFindOptimalEmptyProducts" />
+        <item itemvalue="JUnit.OutputLineTest" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.App (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2811f512-22da-4212-8753-d63f8b2e1917" name="Default Changelist" comment="" />
+      <created>1613135527165</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613135527165</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit for the case study">
+      <created>1613410557370</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613410557370</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit for the case study" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit for the case study" />
+  </component>
+</project>
