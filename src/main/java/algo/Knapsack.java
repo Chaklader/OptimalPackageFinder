@@ -71,23 +71,23 @@ public class Knapsack {
         }
 
         Key nextKey = new Key(key.getPosition() + 1, key.getWeight());
-        Value maxExcludingProduct = findOptimalValue(nextKey);
+        Value excludedOptimalValue = findOptimalValue(nextKey);
 
         Product product = products[key.getPosition()];
         double subtractedWeight = key.getWeight() - product.getWeight();
 
         if (subtractedWeight < 0) {
 
-            return maxExcludingProduct;
+            return excludedOptimalValue;
         }
 
         Key keyWithUpdatedWeight = new Key(key.getPosition() + 1, subtractedWeight);
 
-        Value maxIncludingProduct = findOptimalValue(keyWithUpdatedWeight)
+        Value includedOptimalValue = findOptimalValue(keyWithUpdatedWeight)
                                         .addNewProductData(product.getWeight(), product.getPrice(), key.getPosition());
 
-        Value maximumValue = Value.getMaximumValue(maxIncludingProduct, maxExcludingProduct);
-        return maximumValue;
+        Value optimizedValue = Value.getMaximumValue(includedOptimalValue, excludedOptimalValue);
+        return optimizedValue;
     }
 
 }
