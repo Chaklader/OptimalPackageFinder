@@ -20,8 +20,6 @@ import static util.Parameters.*;
 class PackageOrganizerTest {
 
 
-
-
     @Test
     public void testValidInputLine() {
 
